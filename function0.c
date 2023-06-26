@@ -23,5 +23,11 @@ int _printf(const char *format, ...)
 }
 int main(void)
 {
-	_printf("okay\n");
+	char *name = "Felister Malitu";
+	int age = 23;
+	char *level = "university";
+	double weight = 56.56;
+	_printf("My name is %s , I am %d years old and i am currently in %s\n", name, age, level);
+        _printf(" Oh I weigh %.2f. That is some tiny details about me.\n", weight);
+
 }
